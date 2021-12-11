@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <div class="navbar-brand">
-                <img class="logo-img" src="https://ucios-1.github.io/WebCV/pictures/logo1.svg" alt="logo" />
+                <a href="https://ucios-1.github.io/WebCV/#contact"><img class="logo-img" src="https://ucios-1.github.io/WebCV/pictures/logo1.svg" alt="logo" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,6 +41,19 @@
     </nav>
 
     <main class="hor-centered">
+        
+        <!-- libruary to display -->
+        <div class="libruaryList book">
+            <div class="lib libruaryHead">
+                <h6>#</h6>
+                <h6>Autor</h6>
+                <h6>Nazwa</h6>
+                <h6>Kategoria</h6>
+                <h6>Prio</h6>
+            </div>
+            <div id="libItSelf" class="libruaryBody"></div>
+        </div>
+
         <!-- form to add books -->
         <form id="libruaryForm" class="book">
             <div class="inputWraper">
@@ -67,18 +80,6 @@
                 <button type="submit" class="addButtn">Dodaj</button>
             </div>
         </form>
-
-        <!-- libruary to display -->
-        <div class="libruaryList book">
-            <div class="lib libruaryHead">
-                <h6>#</h6>
-                <h6>Autor</h6>
-                <h6>Nazwa</h6>
-                <h6>Kategoria</h6>
-                <h6>Prio</h6>
-            </div>
-            <div id="libItSelf" class="libruaryBody"></div>
-        </div>
     </main>
 
     <script src="jscript/task2.js"></script>

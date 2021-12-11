@@ -1,6 +1,6 @@
 #libruaryForm {
-    border-right: 0.5px solid rgb(165, 165, 165);
-    border-radius: 10px 0 0 10px;
+    border-left: 0.5px solid rgb(165, 165, 165);
+    border-radius: 0 10px 10px 0;
 }
 
 .book {
@@ -60,7 +60,7 @@
 /* Books list */
 
 .libruaryList {
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px 0 0 10px;
 }
 
 .lib {
@@ -97,4 +97,25 @@
   
   ::-webkit-scrollbar-thumb:hover {
     background: #535353;
+  }
+
+  @media (max-width: 770px) {
+    #libruaryForm {
+        border-top: 0.5px solid rgb(165, 165, 165);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .hor-centered {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .book {
+        width: 100%;
+    }
+
+    .libruaryList {
+        border-radius: 10px 10px 0 0;
+    }
   }
