@@ -68,10 +68,6 @@ a:hover {
 }
 
 @media (max-width: 770px) {
-    .col {
-        padding-left: 2%;
-        padding-rigth: 2%;
-    }
     a {
         margin-left: 5%;
         margin-right: 5%;
