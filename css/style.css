@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.nav-link {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.logo-img {
+    height: 10%;
+    width: 10%;
+}
+
+.nav-item {
+    padding: 0 6%;
+}
+
+.hor-ver-centered {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hor-centered {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.hor-ver-centered > .container {
+    height: 50%;
+}
+
+.row {
+    height: 30%;
+}
+
+.col {
+    height: 100%;
+    padding: 1%;
+}
+
+.col-bttn {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.4rem;
+    height: 100%;
+    width: 90%;
+    background-color: #020229;
+}
+
+.col-bttn:hover {
+    background-color: #03033f;
+}

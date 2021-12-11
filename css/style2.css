@@ -1,0 +1,100 @@
+#libruaryForm {
+    border-right: 0.5px solid rgb(165, 165, 165);
+    border-radius: 10px 0 0 10px;
+}
+
+.book {
+    background-color: #fff;
+    padding: 1%;
+    width: 40%;
+}
+
+.inputWraper {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.inputWraper>label {
+    background-color: #fff;
+    box-sizing: content-box;
+    color: #adadad;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0 8px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: fit-content;
+}
+
+.inputWraper>input  {
+    border-color: #adadad;
+    border-radius: 3px;
+    border-width: 0.5px;
+    line-height: 35px;
+}
+
+.inputWraper>select {
+    border-color: #adadad;
+    border-radius: 3px;
+    border-width: 0.5px;
+    height: 40px;
+}
+
+.addButtn {
+    color: #fff;
+    background-color: #020229;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-top: 7%;
+    padding: 3% 0;
+}
+
+.addButtn:hover {
+    background-color: #03033f;
+}
+
+/* Books list */
+
+.libruaryList {
+    border-radius: 0 10px 10px 0;
+}
+
+.lib {
+    display: grid;
+    grid-template-columns: 5% 31% 31% 20% 9%;
+    grid-column-gap: 1%;
+}
+
+.libruaryHead {
+    border-bottom: 0.5px solid #adadad;
+    margin: 3% 0;
+}
+
+.libruaryBody {
+    max-height: 350px;
+   overflow-y: scroll;
+}
+
+/* scrolbar */
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #8b8b8b;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #535353;
+  }
